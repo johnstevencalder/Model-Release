@@ -1,0 +1,24 @@
+* { margin:0; padding:0; outline:none; }
+#bbc { background:#FFF; }
+header { height:auto; width:100%; border-top:solid 4px #0099FF; margin-bottom:5px; }
+.title { font-family: 'Droid Serif', serif; width:70%; font-size:36px; margin-left:15%; padding:15px 0; border-bottom:solid 2px #0099ff; } 
+/* range customize */
+input[ type="range"] { -webkit-appearance:none; height:5px; width:260px; background:#666;cursor:pointer; vertical-align: middle; }
+input[type="range"]::-webkit-slider-thumb { width:25px; height:12px; background:#063; -webkit-appearance: none;}
+
+/* controls */
+.controls { font-family: 'Droid Serif', serif; width:260px; margin-top:70px; float:center; height:256px; }
+	.main { height:0px; overflow:hidden; opacity:0; }
+.controls1 { margin-left:15%; }
+.controls2 {  border:solid 1px #CCC; margin-top:86px; }
+.controls3,.controls2 { margin-left:50px; }
+.controls2 img {  transition:all .5s; }
+.controls ul li { list-style-type:none; }
+.more { width:70%; margin-left:15%; height:auto; line-height:30px; font-family: 'Droid Serif', serif; border-bottom:solid 2px #0099FF; }
+.reset { height:30px; width:80px; border:none; font-family: 'Droid Serif', serif; font-size:16px; cursor:pointer; }
+.more a { text-decoration:none; color:#600; }
+.c-out { height:370px; }
+#ins { font-family: 'Droid Serif', serif; font-weight:bold; margin-left:15%; width:70%; margin-top:10px; color:#F00; }
+@media (max-width:720px) {
+	.c-out { height:1080px; }
+}
